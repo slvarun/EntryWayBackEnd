@@ -46,7 +46,9 @@ app.use("/bookingorder", bookingRoute)
 app.use("/admin", AdminRoute)
 
 
-
+app.get("/",(req, res) =>{
+    res.json("Hello")
+})
 
 
 app.use((err, req, res, next)=>{
