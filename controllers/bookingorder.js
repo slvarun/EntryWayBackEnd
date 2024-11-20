@@ -2,6 +2,7 @@ import Bookings from "../models/bookingorder.js"
 
 export const create_booking = async (req, res, next) => {
     const newBooking = new Bookings(req.body);
+    console.log(req.body)
     try {
       const savedBooking = await newBooking.save();
       res.status(200).json(savedBooking);

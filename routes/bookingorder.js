@@ -9,9 +9,6 @@ import { verifyToken, verifyUser, verifyAdmin } from "../utils/verifyToken.js";
 const router = express.Router();
 
 
-
-
-
                                     
 router.post("/monuments/book/:id", create_booking)
 
