@@ -1,0 +1,34 @@
+{
+  "name": "router_method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "nodejs": "14.2.0",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.12.3",
+    "nodemon": "^2.0.22",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
